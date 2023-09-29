@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto;
+}
+
+.navbar__ru {
+  float: right;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar__nav {
+  display: inline-block;
+}
+
+.navbar__a {
+  text-decoration: none;
+  margin-right: 0;
+  color: #202336;
+  padding: 20px;
+}
+
+.btn__log {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 132px;
+  height: 44px;
+  text-align: center;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+  color: #fb8f1d;
+  margin-right: 10px;
+}
+
+
+.btn__reg {
+  background-color: #fb8f1d;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 132px;
+  height: 44px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+
+
+
+.locations,
+.activities,
+.grades,
+.dates {
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 32px;
+  padding: 10px;
+  width: 190px;
+  height: 42px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  margin: 10px;
+}
+.btn__explore {
+  background-color: #fb8f1d;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 132px;
+  height: 44px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.hero__section {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.left__side {
+  width: 40%;
+  float: left;
+}
+
+.text-typography {
+  margin-top: 10%;
+  align-items: center;
+}
+
+.text__typography h1 {
+  font-family: "Playfair Display";
+  font-size: 64px;
+  color: #202336;
+  font-weight: normal;
+  line-height: 80px;
+}
+
+.holiday__finder-section {
+  margin-top: 74px;
+}
+
+.holiday__finder-section p {
+  font-size: 22px;
+  font-style: normal;
+  line-height: 27px;
+  font-weight: 600;
+  color: #202336;
+  margin-top: 74px;
+  margin-left: 10px;
+}
+
+span {
+  background-color: #202336;
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  width: 32px;
+  height: 2px;
+}
+
+
+.btn-explore {
+  background-color: #fb8f1d;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 132px;
+  height: 44px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+
+
+.right__side {
+  width: 60%;
+  float: right;
+}
+
+.hero img {
+  width: 587px;
+  margin-left: 100px;
+}
+
+.main__section {
+  margin-top: 700px;
+}
+
+.images {
+  width: 50%;
+  float: left;
+}
+
+.images .dart__img img {
+  width: 500px;
+  align-items: center;
+  margin: auto;
+}
+
+.content {
+  width: 50%;
+  float: right;
+  padding: 50px;
+}
+
+.content__text h1 {
+  margin-top: 30px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: black;
+}
+
+.content__text p {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.btn__learn {
+  background-color: #fb8f1d;
+  margin-left: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 132px;
+  height: 44px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+
+.featured__destinations-section {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.featured__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured__text h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+.featured__text a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  color: #fb8f1d;
+}
+
+
+
+.card__photo {
+  display: flex;
+  margin-top: 60px;
+}
+
+.rajaampat img {
+  cursor: pointer;
+  margin-right: 25px;
+  border-radius: 8px;
+  width: 261px;
+  height: 337px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+
+.fanjingshan img {
+  cursor: pointer;
+  margin-right: 25px;
+  border-radius: 8px;
+  width: 261px;
+  height: 337px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+
+.vevey img {
+  cursor: pointer;
+  margin-right: 25px;
+  border-radius: 8px;
+  width: 261px;
+  height: 337px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+.skadar img {
+  cursor: pointer;
+  margin-right: 25px;
+  border-radius: 8px;
+  width: 261px;
+  height: 337px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+
+.info {
+  position: relative;
+  background-color: white;
+  width: 120px;
+  height: 56px;
+  margin-top: -59px;
+  border-top-right-radius: 8px;
+}
+
+.info p {
+  color: #042521;
+  font-size: 15px;
+  padding: 5px;
+}
+
+
+.second__main-section {
+  margin-top: 150px;
+}
+
+.second__main-section .images {
+  width: 50%;
+  float: right;
+}
+
+.second__main-section .images .dart__img img {
+  width: 500px;
+  margin-left: 49px;
+}
+
+.content {
+  width: 50%;
+  float: left;
+}
+
+.content__text h1 {
+  margin-top: 30px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: black;
+}
+
+.content__text p {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.btn__download {
+  background-color: #fb8f1d;
+  margin-left: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 132px;
+  height: 44px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+
+
+
+
